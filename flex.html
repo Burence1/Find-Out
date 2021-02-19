@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FindOut App</title>
+  <link href="./js/script.js">
   <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="./flex.css" rel="stylesheet" type="text/css">
   <style>
@@ -13,31 +14,42 @@
   </style>
 </head>
 <body>
-  <div class="Header3">
+  <div class="Header">
     <h3>Enter the Following Details</h3>
   </div>
-  <div class="container">
-    <form>
-      <ul class="flex-outer">
-        <li>
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name here">
-        </li>
-        <li>
-          <label for="day">BirthDay</label>
-          <input type="day" id="day" placeholder="Enter your email here">
-        </li>
-        <li>
-          <input type="radio" id="male" name="gender" value="male">
-          <label for="male">Male</label><br>
-          <input type="radio" id="female" name="gender" value="female">
-          <label for="female">Female</label><br>
-        </li>
-        <li class="sub">
-          <button type="submit">Submit</button>
-        </li>
-      </ul>
-    </form>
+
+  <div class="card text-center">
+    <div class="card-header">
+      <em>let's do some magic</em>
+    </div>
+    <div class="card-body">
+      <form>
+        <ul class="flex-outer">
+          <li>
+            <label for="name" onsubmit="getName">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+          </li>
+          <li>
+            <label for="date">BirthDay</label>
+            <input type="date" id="date" placeholder="Enter Birthday">
+          </li>
+          <li>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+          </li>
+          <li class="sub">
+            <button type="submit">Submit</button>
+          </li>
+          <li>
+            <output class="out"> Akan Name:</output>
+          </li>
+        </ul>
+      </form>
+    <div class="card-footer">
+      <strong>Just Tech Nothing Magical</strong>
+    </div>
   </div>
 </body>
 </html>

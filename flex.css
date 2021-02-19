@@ -1,4 +1,5 @@
 .flex-outer li{
+  padding-left: 1em;
   display: block;
   align-items: center;
 }
@@ -8,4 +9,23 @@
   background:black;
   color: whitesmoke;
   border-radius: 47%;
+}
+.Header{
+  height: 10em;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+h3{
+  padding-bottom: 2em;
+  padding-top: 1.7em;
+}
+.card-body > card-header {
+  background-image: url(./images/um.jpg);
+  background-size: cover;
+  color: black;
+  
+}
+.out{
+  padding: 2em;
 }

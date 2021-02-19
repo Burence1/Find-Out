@@ -42,7 +42,8 @@ html{
   margin-bottom: 2em;
 }
 .Header2{
-  background-color: skyblue;
+  background-image: url(./images/4835665.jpg);
+  background-size: cover;
   padding: 3em;
   color: whitesmoke;
   text-align: center;
@@ -57,4 +58,13 @@ html{
 }
 .navbar-brand span{
   color: gray;
+}
+.steps{
+  color: black;
+  text-align: center;
+  list-style: none;
+}
+.strip{
+  height: 3em;
+  background-color: black;
 }
