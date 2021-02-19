@@ -38,6 +38,20 @@
   background-size: cover;
   margin-bottom: 2em;
 }
+.Header2{
+  background-color: skyblue;
+  padding: 3em;
+  color: whitesmoke;
+  text-align: center;
+  background-size: cover;
+}
 #contacts{
   float: left;
+}
+.ul{
+  list-style: none;
+  display: inline-flex;
+}
+.navbar-brand span{
+  color: gray;
 }
