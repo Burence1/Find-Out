@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .navbar{
   background: black;
   padding-top: 0%;
