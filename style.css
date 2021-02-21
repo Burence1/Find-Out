@@ -75,7 +75,7 @@ html{
   align-items: center;
 }
 .flex-outer li button {
-  padding: 0em;
+  padding: 0.7em;
   border: none;
   background:black;
   color: whitesmoke;
