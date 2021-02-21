@@ -51,7 +51,7 @@ html{
   background-size: cover;
 }
 #contacts{
-  float: left;
+  text-align: center;
 }
 .ul{
   list-style: none;
