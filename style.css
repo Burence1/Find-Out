@@ -69,3 +69,29 @@ html{
   height: 3em;
   background-color: black;
 }
+.flex-outer li{
+  padding-left: 1em;
+  display: block;
+  align-items: center;
+}
+.flex-outer li button {
+  padding: 0em;
+  border: none;
+  background:black;
+  color: whitesmoke;
+  border-radius: 47%;
+}
+.Header3{
+  height: 10em;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+h3{
+  padding-bottom: 2em;
+  padding-top: 1.7em;
+}
+
+.out{
+  padding: 2em;
+}
