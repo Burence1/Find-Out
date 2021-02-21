@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FindOut App</title>
-  <link href="./js/script.js">
+  <!-- <link href="./js/script.js"> -->
+  
   <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="./flex.css" rel="stylesheet" type="text/css">
   <style>
@@ -25,13 +26,9 @@
     <div class="card-body">
       <form>
         <ul class="flex-outer">
-          <li>
-            <label for="name" onsubmit="getName">Name</label>
-            <input type="text" id="name" placeholder="Enter Name">
-          </li>
-          <li>
+          <li id="date">
             <label for="date">BirthDay</label>
-            <input type="date" id="date" placeholder="Enter Birthday">
+            <input type="date" name="birthday" placeholder="Enter Birthday" required>
           </li>
           <li>
             <input type="radio" id="male" name="gender" value="male">
@@ -40,7 +37,7 @@
             <label for="female">Female</label><br>
           </li>
           <li class="sub">
-            <button type="submit">Submit</button>
+            <button input type = "button" onclick = "getName()" value = "Display">Submit</button>
           </li>
           <li>
             <output class="out"> Akan Name:</output>
@@ -51,5 +48,9 @@
       <strong>Just Tech Nothing Magical</strong>
     </div>
   </div>
+  <script type="text/javascript" src="./js/script.js"
+  function getName(){
+    document.getElementId("date").Submit;
+  }></script>
 </body>
 </html>
