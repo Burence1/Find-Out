@@ -8,7 +8,7 @@
 * To work on the cloned project, ensure to have any text editors of your choice.
 ### Behaviour Driven Development
 ## About
-{The FindOut App is a project developed with HTML, CSS, JavaScript and Bootstrap. The project takes in Clients' birthdays and refactors it to prodeuce a matching Akan name}
+{The FindOut App is a project developed with HTML, CSS, JavaScript and Bootstrap. The project takes in Clients' birthdays and refactors it to produce a matching Akan name}
 ## Features
 * The App takes in Birthdays
 * Then outputs a matching Akan name on submission
