@@ -39,7 +39,7 @@ html{
   color: black;
   height: 30rem;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 .Header2{
   background-image: url(./images/main.jpg);
