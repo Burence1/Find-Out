@@ -95,3 +95,19 @@ h3{
 .out{
   padding: 2em;
 }
+
+@media screen and (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+  .Header{
+    width: 100%;
+  }
+  .about{
+    width: 100%;
+  }
+  .contacts{
+    overflow: auto;
+    width: 50%;
+  }
+}
