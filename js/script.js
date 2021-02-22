@@ -2,10 +2,8 @@ function getName() {
 
   var date = new Date(document.querySelector('input[type="date"]').value);
   var maleChecked = document.getElementById('male').checked;
-  // var female = (document.getElementById('female').value);
 
   console.log(male)
-  // console.log(female)
    gender = ''
   
   if (maleChecked){
