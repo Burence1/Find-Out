@@ -64,6 +64,7 @@ html{
   color: black;
   text-align: center;
   list-style: none;
+  font-size: larger;
 }
 .strip{
   height: 3em;
@@ -95,7 +96,22 @@ h3{
 .out{
   padding: 2em;
 }
-
+.add{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.enter{
+  padding-bottom: 3em;
+}
+.select{
+  padding-bottom: 3em;
+}
+.submit{
+  padding-bottom: 3em;
+}
+.name{
+  padding-bottom: 3em;
+}
 @media screen and (max-width: 600px) {
   body{
     width: 100%;
