@@ -1,6 +1,8 @@
+/*defining scroll behaviour*/
 html{
   scroll-behavior: smooth;
 }
+/*styling the navbar*/
 .navbar{
   background: black;
   padding-top: 0%;
@@ -30,6 +32,7 @@ html{
   position: cover;
   height: 40rem;
 }
+/*styling the landing page header*/
 .Header{
   text-align: center;
   font-size: larger;
@@ -41,6 +44,7 @@ html{
   background-size: cover;
   margin-bottom: 0;
 }
+/*styling the guide flex page header*/
 .Header2{
   background-image: url(./images/main.jpg);
   background-size: cover;
