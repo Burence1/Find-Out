@@ -2,7 +2,7 @@ function getName() {
 
   var date = new Date(document.querySelector('input[type="date"]').value);
   var maleChecked = document.getElementById('male').checked;
-  
+    
   console.log(male)
    gender = ''
   
@@ -23,6 +23,7 @@ function getName() {
 else {
     name = femaleNames[dayOfWeek];
   }
+
   console.log('NAME IS ', name)
   document.getElementById("out").value = name;
   

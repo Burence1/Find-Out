@@ -1,6 +1,8 @@
 # Find-Out
 #### {A project developed to calculate birth days and assign them Akan names}, {Date: 22/02/2021}
 #### By **{BURENS OMONDI}**
+## Description
+{The FindOut App is a multipage website consisiting of; the laanding pages, the App page and the Guide page. It is a project that manipulates birthdates to output suitable Akan names. The project has a guide page to aid and enhance clients’ experience with the app. Furthermore, this project is not limited to specific dates or centuries as it is capable of calculating anyone’s Akan name.}
 ## Setup/Installation
 * Navigate to the project repository via https://github.com/Burence1/Find-Out.git 
 * Change your working repository to the clone location of your prefference.
